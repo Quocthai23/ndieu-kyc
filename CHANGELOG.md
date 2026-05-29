@@ -1,3 +1,10 @@
+## [1.1.10](https://github.com/Quocthai23/ndieu-kyc/compare/v1.1.9...v1.1.10) (2026-05-29)
+
+
+### Bug Fixes
+
+* add Configure NPM Authentication step in release workflow ([988502c](https://github.com/Quocthai23/ndieu-kyc/commit/988502ce9ce5645ba0e2649b73219ce214775853))
+
 ## [1.1.9](https://github.com/Quocthai23/ndieu-kyc/compare/v1.1.8...v1.1.9) (2026-05-29)
 
 
