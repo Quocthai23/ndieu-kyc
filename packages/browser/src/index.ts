@@ -50,7 +50,7 @@ export class DocumentExtractor extends CoreDocumentExtractor {
     /**
      * Ghi đè hàm extract để hỗ trợ cả DOM Image/Canvas và ImageInput chuẩn hóa
      */
-    override async extract(imageSource: HTMLImageElement | HTMLCanvasElement | ImageInput): Promise<ExtractedResult> {
+    async extract(imageSource: HTMLImageElement | HTMLCanvasElement | ImageInput): Promise<ExtractedResult> {
         const input = ('data' in imageSource) 
             ? imageSource 
             : browserImageToInput(imageSource);
@@ -69,7 +69,7 @@ export class FaceMatcher extends CoreFaceMatcher {
     /**
      * Trích xuất đặc trưng khuôn mặt từ ảnh của Trình duyệt hoặc cấu trúc ImageInput
      */
-    override async extractEmbedding(imageSource: HTMLImageElement | HTMLCanvasElement | ImageInput): Promise<Float32Array> {
+    async extractEmbedding(imageSource: HTMLImageElement | HTMLCanvasElement | ImageInput): Promise<Float32Array> {
         const input = ('data' in imageSource) 
             ? imageSource 
             : browserImageToInput(imageSource);
@@ -79,7 +79,7 @@ export class FaceMatcher extends CoreFaceMatcher {
     /**
      * So khớp hai khuôn mặt từ các ảnh của Trình duyệt hoặc cấu trúc ImageInput
      */
-    override async match(
+    async match(
         documentImage: HTMLImageElement | HTMLCanvasElement | ImageInput,
         selfieImage: HTMLImageElement | HTMLCanvasElement | ImageInput
     ): Promise<MatchResult> {
@@ -104,7 +104,7 @@ export class LivenessDetector extends CoreLivenessDetector {
     /**
      * Phân tích thực thể sống thụ động trên Trình duyệt
      */
-    override async analyzePassive(imageSource: HTMLImageElement | HTMLCanvasElement | ImageInput): Promise<LivenessResult> {
+    async analyzePassive(imageSource: HTMLImageElement | HTMLCanvasElement | ImageInput): Promise<LivenessResult> {
         const input = ('data' in imageSource) 
             ? imageSource 
             : browserImageToInput(imageSource);

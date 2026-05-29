@@ -8,6 +8,12 @@
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
     "declaration": true,
-    "outDir": "dist"
+    "outDir": "dist",
+    "baseUrl": ".",
+    "paths": {
+      "@ndieu/kyc-core": ["packages/core/src"],
+      "@ndieu/kyc-browser": ["packages/browser/src"],
+      "@ndieu/kyc-node": ["packages/node/src"]
+    }
   }
 }
