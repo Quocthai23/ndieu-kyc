@@ -1,3 +1,10 @@
+## [1.1.9](https://github.com/Quocthai23/ndieu-kyc/compare/v1.1.8...v1.1.9) (2026-05-29)
+
+
+### Bug Fixes
+
+* clean trigger release with updated configurations ([7088fc6](https://github.com/Quocthai23/ndieu-kyc/commit/7088fc6b9657dca35c6aac8b873270170b89b3a3))
+
 ## [1.1.8](https://github.com/Quocthai23/ndieu-kyc/compare/v1.1.7...v1.1.8) (2026-05-29)
 
 
