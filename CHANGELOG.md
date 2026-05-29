@@ -1,3 +1,10 @@
+## [1.1.3](https://github.com/Quocthai23/ndieu-kyc/compare/v1.1.2...v1.1.3) (2026-05-29)
+
+
+### Bug Fixes
+
+* re-trigger release to test npm publish ([648e17d](https://github.com/Quocthai23/ndieu-kyc/commit/648e17d00dca274cfbbf4af0d053728b5fe101c7))
+
 ## [1.1.2](https://github.com/Quocthai23/ndieu-kyc/compare/v1.1.1...v1.1.2) (2026-05-29)
 
 
