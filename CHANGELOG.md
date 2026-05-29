@@ -1,3 +1,10 @@
+## [1.1.6](https://github.com/Quocthai23/ndieu-kyc/compare/v1.1.5...v1.1.6) (2026-05-29)
+
+
+### Bug Fixes
+
+* trigger release with configured npm token ([9839ed3](https://github.com/Quocthai23/ndieu-kyc/commit/9839ed3f69212e6678b2a190379369bf5ccd0258))
+
 ## [1.1.5](https://github.com/Quocthai23/ndieu-kyc/compare/v1.1.4...v1.1.5) (2026-05-29)
 
 
