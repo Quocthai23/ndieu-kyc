@@ -1,5 +1,8 @@
 {
   "name": "@ndieu/kyc-cli",
+  "publishConfig": {
+    "access": "public"
+  },
   "version": "0.1.0",
   "description": "CLI Tool để cài đặt và tải mô hình AI cho NDieu eKYC",
   "bin": {
