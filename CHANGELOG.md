@@ -1,3 +1,10 @@
+## [1.1.7](https://github.com/Quocthai23/ndieu-kyc/compare/v1.1.6...v1.1.7) (2026-05-29)
+
+
+### Bug Fixes
+
+* re-trigger publish with updated classic automation npm token ([8a22904](https://github.com/Quocthai23/ndieu-kyc/commit/8a2290456507aa5a5e0101785c3caa952f06e7a9))
+
 ## [1.1.6](https://github.com/Quocthai23/ndieu-kyc/compare/v1.1.5...v1.1.6) (2026-05-29)
 
 
