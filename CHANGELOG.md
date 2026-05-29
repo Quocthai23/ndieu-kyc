@@ -1,3 +1,10 @@
+## [1.1.4](https://github.com/Quocthai23/ndieu-kyc/compare/v1.1.3...v1.1.4) (2026-05-29)
+
+
+### Bug Fixes
+
+* trigger release to publish workspaces after fixing node version ([d00b79a](https://github.com/Quocthai23/ndieu-kyc/commit/d00b79ad01c70eb6f97c67b3c9f54b3bf3fefb5f))
+
 ## [1.1.3](https://github.com/Quocthai23/ndieu-kyc/compare/v1.1.2...v1.1.3) (2026-05-29)
 
 
