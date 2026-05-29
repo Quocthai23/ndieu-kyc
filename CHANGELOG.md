@@ -1,3 +1,10 @@
+## [1.1.8](https://github.com/Quocthai23/ndieu-kyc/compare/v1.1.7...v1.1.8) (2026-05-29)
+
+
+### Bug Fixes
+
+* configure semantic-release npmPublish false to bypass root private package skip and allow workspaces publish ([33b1ea4](https://github.com/Quocthai23/ndieu-kyc/commit/33b1ea4714bfeb72c41ab8fd5100b49bf15bdb2a))
+
 ## [1.1.7](https://github.com/Quocthai23/ndieu-kyc/compare/v1.1.6...v1.1.7) (2026-05-29)
 
 
