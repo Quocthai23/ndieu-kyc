@@ -1,3 +1,10 @@
+## [1.1.2](https://github.com/Quocthai23/ndieu-kyc/compare/v1.1.1...v1.1.2) (2026-05-29)
+
+
+### Bug Fixes
+
+* trigger release after creating npm organization ([f61a131](https://github.com/Quocthai23/ndieu-kyc/commit/f61a1317330575d211a6c9e6191e7b0725f2c610))
+
 ## [1.1.1](https://github.com/Quocthai23/ndieu-kyc/compare/v1.1.0...v1.1.1) (2026-05-29)
 
 
