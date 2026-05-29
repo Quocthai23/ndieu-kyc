@@ -23,13 +23,14 @@
   "author": "NDieu",
   "license": "MIT",
   "devDependencies": {
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/exec": "^7.1.0",
+    "@semantic-release/git": "^10.0.1",
     "@types/node": "^20.0.0",
+    "semantic-release": "^25.0.3",
     "tsup": "^8.0.0",
     "typescript": "^5.0.0",
-    "vitest": "^1.4.0",
-    "semantic-release": "^23.0.0",
-    "@semantic-release/changelog": "^6.0.3",
-    "@semantic-release/git": "^10.0.1"
+    "vitest": "^1.4.0"
   },
   "release": {
     "branches": [
@@ -41,11 +42,20 @@
       "@semantic-release/changelog",
       "@semantic-release/npm",
       [
+        "@semantic-release/exec",
+        {
+          "prepareCmd": "npm --no-git-tag-version --workspaces version ${nextRelease.version}",
+          "publishCmd": "npm publish --workspaces"
+        }
+      ],
+      [
         "@semantic-release/git",
         {
           "assets": [
             "package.json",
-            "CHANGELOG.md"
+            "CHANGELOG.md",
+            "packages/*/package.json",
+            "apps/*/package.json"
           ],
           "message": "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
         }
