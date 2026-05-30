@@ -92,7 +92,7 @@ out
 
 # Nuxt.js build / generate output
 .nuxt
-dist
+# dist
 
 # Gatsby files
 .cache/
@@ -126,8 +126,8 @@ dist
 .DS_Store
 
 # Monorepo specific
-packages/*/dist
-apps/*/dist
+# packages/*/dist
+# apps/*/dist
 apps/*/.next
 
 # IDE
@@ -135,5 +135,5 @@ apps/*/.next
 .vscode/
 
 # Build and Dist
-dist/
+# dist/
 build/
