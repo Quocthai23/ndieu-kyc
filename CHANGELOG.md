@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/Quocthai23/ndieu-kyc/compare/v1.1.10...v1.2.0) (2026-05-30)
+
+
+### Features
+
+* implement CLI tool for initializing configurations and downloading AI models ([dcc57c5](https://github.com/Quocthai23/ndieu-kyc/commit/dcc57c5dcbe4a86659c25744ddc4ba60abf32ed7))
+
 ## [1.1.10](https://github.com/Quocthai23/ndieu-kyc/compare/v1.1.9...v1.1.10) (2026-05-29)
 
 
