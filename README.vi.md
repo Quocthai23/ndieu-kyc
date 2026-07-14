@@ -101,7 +101,7 @@ runEKYC();
 graph TD
     UI[Giao diện Web / Next.js / React] -->|Hình ảnh / Video| WorkerProxy[Luồng Xử lý Ngầm - Web Worker]
     
-    subgraph Engine AI (Trình duyệt)
+    subgraph Engine_AI [Engine AI - Trình duyệt]
         WorkerProxy --> Session[ONNX Inference Session]
         Session -->|Ưu tiên số 1| GPU[WebGPU]
         Session -.Dự phòng.-> GL[WebGL]

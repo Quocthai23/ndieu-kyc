@@ -101,7 +101,7 @@ runEKYC();
 graph TD
     UI[Web UI / Next.js / React] -->|Image / Video| WorkerProxy[Background Thread - Web Worker]
     
-    subgraph AI Engine (Browser)
+    subgraph Engine_AI [AI Engine - Browser]
         WorkerProxy --> Session[ONNX Inference Session]
         Session -->|Priority 1| GPU[WebGPU]
         Session -.Fallback.-> GL[WebGL]
